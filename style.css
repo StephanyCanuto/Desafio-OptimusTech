@@ -165,6 +165,7 @@ header{
     font-family: Inter;
     font-weight: 600;
     font-size: 60px;
+    color: #8E2424;
 }
 
 .text{
@@ -330,3 +331,44 @@ header{
     margin-top: 25px;
     margin-bottom: 12px;
 }
+
+
+/* sessão de formulário */
+
+footer {
+    width: 100%;
+    height: 430px; /* Adicionado 'px' para evitar erros */
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: #F9FAFB;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h1{
+    margin-bottom: 32px;
+}
+
+input{
+    width: 360px;
+    height: 48px;
+    border: #c7c7c7 1px solid;
+    border-radius: 8px;
+    margin-right: 6px;
+    padding-right: 14px ;
+    padding-bottom: 12px ;
+    padding-top: 12px ;
+    padding-left: 6px;
+}
+
+.campo-formulario{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.copy{
+    color: #98A2B3;
+    font-size: 16px;
+}
+
