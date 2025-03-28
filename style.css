@@ -7,6 +7,16 @@
     font-family: 'Inter', sans-serif;
 }
 
+h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: center;
+
+}
+
 nav {
     width: 100%;
     height: 80px;
@@ -172,4 +182,108 @@ header{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
+}
+
+/* SESSÃO DE TALENTOS */
+.vagas{
+    width: 1440;
+    height: 1798;
+    gap: 64px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+}
+
+.container-talentos{
+    width: 1440;
+    height: 1798;
+    gap: 64px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+}
+
+.texto-talentos{
+    align-items: center;
+    gap: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+    top: 96px;
+    left: 80px;
+    width: 1280;
+    height: 602;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#imagem-talentos{
+    width: 1116px;
+    height: 400;
+    top: 298px;
+}
+
+.sub-talentos{
+    color: #8E2424;
+    background-color: #F9F4F4;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.vagas-opc {
+    width: 768px;
+    height: 358px;
+}
+
+.nome-vaga {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.job-post {
+    width: 768px;
+    height: 136px;
+    gap: 24px;
+    padding: 24px 24px 24px 24px; 
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+    margin-bottom: 32px;
+}
+
+.vagas-abertas {
+    width: 1280px;
+    height: 940px;
+}
+
+.menu-vagas {
+    width: 1280px;
+    height: 358px;
+    gap: 64px;
+    padding: 0 32px; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    
+}
+
+.info-vaga {
+    display: flex;
+    flex-direction: row;
+    width: 720px;
+    height: 24px;
+    gap: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 32px;
 }
